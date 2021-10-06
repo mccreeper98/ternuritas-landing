@@ -42,10 +42,9 @@
 
         <img src="img/header.png" class="noborder">
 
-        <div class="center">
-          <br>
-          <p class="quees">¿Qué es Ternurita?</p>
-          <div class="line"></div>
+        <div class="center rosa">
+          <img src="img/recicla.PNG" class="recicla-img">
+          <p class="quees"> En Ternurita nos preocupamos por el medio ambiente</p>
         </div>
 
         <div class="slider">
@@ -79,10 +78,8 @@
               <div class="col s12 m6 l5 left-align">
                 <div class="content">
                 <p class="como-title">¿Cómo funciona?</p>
-                <div class="linec"></div>
-                <br>
                 <div class="sabemos">
-                  Sabemos que los bebés crecen muy rápido y la mayoría de su ropa solo llega a ser usada una o dos veces. Con Ternurita puedes darle más tiempo de vida a toda esa ropita y accesorios, además de recuperar parte de la inversión permitiendo que alguien más lo compre.
+                  Sabemos que los bebés crecen muy rápido y la mayoría de su ropa solo llega a ser usada una o dos veces. Con <span>Ternurita</span> puedes darle más tiempo de vida a toda esa ropita y accesorios, además de recuperar parte de la inversión permitiendo que alguien más lo compre.
                 </div>
                 <br>
                 <div class="elemento">
@@ -153,10 +150,46 @@
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script>  
         $(document).ready(function(){
-          $('.slider').slider({
+          $('.button-collapse').sideNav({
+          menuWidth: 300, // Default is 300
+          edge: 'left', // Choose the horizontal origin
+          closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+          draggable: true, // Choose whether you can drag to open on touch screens,
+          onOpen: function(el) { $('#menuGrup').addClass('hide'); }, // A function to be called when sideNav is opened
+          onClose: function(el) { $('#menuGrup').removeClass('hide'); }, // A function to be called when sideNav is closed
+        });
+        
+        var screenWidth = document.documentElement.scrollWidth;
+        console.log(document.documentElement.scrollWidth);
+        if(screenWidth <= 920) {
+            $('.slider').slider({
+            height: 1400
+          });
+          } else {
+            $('.slider').slider({
+            height: 745
+          });
+          }
+
+        // asociamos el manejador de evento
+        mediaqueryList.addListener(manejador);
+        });
+
+
+        var mediaqueryList = window.matchMedia("(max-width: 920px)");
+
+        function manejador(EventoMediaQueryList) {
+          if(EventoMediaQueryList.matches) {
+            $('.slider').slider({
             height: 1150
           });
-        });
+          } else {
+            $('.slider').slider({
+            height: 745
+          });
+          }
+        }
+
        </script>
     </body>
   </html>

@@ -9,7 +9,7 @@ nav{
 }
 
 ul.right li{
-    margin-top: 1rem;
+    margin-top: 1.3rem;
 }
 
 ul.right li a{
@@ -25,28 +25,85 @@ ul.right li a{
     color: #fff;
 }
 
-.active{
-    border-radius: 3px;
-    border: solid 1px #fff;
-}
-
-.noborder{
-    margin-top: -64px;
-    width: 100%;
-    height: auto;
-}
-
-.quees{
-    margin-bottom: 0;
+ul.side-nav li a{
+    margin: 5px 0 4px 12px;
     font-family: KohSantepheap;
-    font-size: 36px;
-    font-weight: 900;
+    font-size: 14px !important;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul li.active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.side-nav li.active {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+ul.side-nav li.active a{
+    font-family: KohSantepheap;
+    font-size: 14px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
     color: #231f20;
+}
+
+ul.right li.active a{
+    font-family: KohSantepheap;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #231f20;
+}
+
+.noborder{
+    display: block;
+    margin-top: -64px;
+    width: 100%;
+    height: auto;
+}
+
+.rosa{
+    background-color: #cdadc3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.recicla-img{
+    width: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.quees{
+    margin: 0;
+    font-family: OpenSans;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.02;
+    letter-spacing: normal;
+    color: #000;
 }
 
 .line{
@@ -66,14 +123,15 @@ ul.right li a{
 }
 
 .como-title{
-    font-family: KohSantepheap;
-    font-size: 36px;
-    font-weight: 900;
+    font-family: HelloMorgan;
+    font-size: 56px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
     color: #231f20;
+    margin-bottom: 20px;
 }
 
 .linec{
@@ -85,16 +143,24 @@ ul.right li a{
 
 .sabemos{
     font-family: OpenSans;
-    font-size: 14px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: normal;
-    color: #000;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: #000;
+  
+}
+
+.sabemos span{
+    font-weight: bold;
 }
 
 .elemento{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: row;
 }
@@ -229,22 +295,22 @@ ul.right li a{
 }
 
 .slider .indicators .indicator-item {
-    background-color: rgba(142, 208, 188, 0.2) !important;
+    background-color: rgba(243, 129, 126, 0.2) !important;
   }
   
   .slider .indicators .indicator-item.active {
-    background-color: #8ed0bc !important;
+    background-color: #f3817e !important;
   }
 
   .mama{
-    font-family: Helvetica;
-    font-size: 36px;
-    font-weight: bold;
+    font-family: HelloMorgan;
+    font-size: 56px;
+    font-weight: normal;
     font-stretch: normal;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #231f20; 
+    color: #231f20;
     margin-bottom: 0;
   }
 
@@ -253,7 +319,6 @@ ul.right li a{
   }
 
   .es{
-      width: 50%;
     font-family: OpenSans;
     font-size: 14px;
     font-weight: normal;
@@ -265,14 +330,17 @@ ul.right li a{
   }
 
   .tel{
-      width: 250px;
+      width: 425px;
   }
 
   .as{
-      width: 165px;
+      width: 155px;
   }
 
   .ps{
-      margin-left: 1rem;
       width:176px
+  }
+
+  .a{
+      width: 1rem;
   }
