@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Semibold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "HelloMorgan";
+  src: url("../fonts/HelloMorgan.ttf");
+}
+
 nav{
     background-color: #f3817e;
 }
@@ -106,6 +141,12 @@ ul.right li.active a{
     color: #000;
 }
 
+@media  only screen and (max-width: 920px){
+  .quees{
+    line-height: 1.5;
+}  
+}
+
 .line{
     margin: 0 auto;
     width: 60px;
@@ -119,7 +160,7 @@ ul.right li.active a{
 }
 
 .content{
-    margin-left: 2rem;
+    margin-left: 67px;
 }
 
 .como-title{
@@ -182,9 +223,14 @@ ul.right li.active a{
   color: #000;
 }
 
+.elemento-text span{
+  font-weight: bold;
+}
+
 .phones{
-    width: 80%;
+    width: 100%;
     height: auto;
+    display: block;
 }
 
 .footer{
@@ -312,6 +358,7 @@ ul.right li.active a{
     letter-spacing: normal;
     color: #231f20;
     margin-bottom: 0;
+    margin-top: -30px;
   }
 
   .lineah{
@@ -330,7 +377,7 @@ ul.right li.active a{
   }
 
   .tel{
-      width: 425px;
+      width: 294px;
   }
 
   .as{
@@ -343,4 +390,32 @@ ul.right li.active a{
 
   .a{
       width: 1rem;
+  }
+
+  .title{
+    font-family: HelloMorgan;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000;
+    margin-top: 0;
+  }
+
+  .letras{
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.86;
+    letter-spacing: normal;
+    color: #000;
+  }
+
+  .margen{
+      width: 90%;
+      margin: 0 auto;
   }
