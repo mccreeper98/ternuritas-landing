@@ -49,7 +49,7 @@ ul.right li{
 
 ul.right li a{
     margin: 5px 0 4px 12px;
-    font-family: KohSantepheap;
+    font-family: 'Koh Santepheap', cursive;
     font-size: 14px !important;
     font-weight: bold;
     font-stretch: normal;
@@ -62,7 +62,7 @@ ul.right li a{
 
 ul.side-nav li a{
     margin: 5px 0 4px 12px;
-    font-family: KohSantepheap;
+    font-family: 'Koh Santepheap', cursive;
     font-size: 14px !important;
     font-weight: bold;
     font-stretch: normal;
@@ -82,7 +82,7 @@ nav ul li.active {
 }
 
 ul.side-nav li.active a{
-    font-family: KohSantepheap;
+    font-family: 'Koh Santepheap', cursive;
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
@@ -94,7 +94,7 @@ ul.side-nav li.active a{
 }
 
 ul.right li.active a{
-    font-family: KohSantepheap;
+    font-family: 'Koh Santepheap', cursive;
     font-size: 14px;
     font-weight: bold;
     font-stretch: normal;
