@@ -1,0 +1,41 @@
+.content{
+    padding: 3rem !important;
+}
+
+.logo{
+    width: 60%;
+}
+
+.title{
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 26px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.08;
+    letter-spacing: normal;
+    text-align: center;
+    color: #231f20;
+}
+
+.instrucciones{
+    font-family: 'Open Sans', sans-serif;;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    text-align: center;
+    color: #231f20;
+
+}
+
+.input-field input[type=password]{
+background-color: #fafafa;
+}
+
+
+.input-field label {
+    margin-left: 5px;
+}
