@@ -183,7 +183,7 @@ ul.right li.active a{
 }
 
 .sabemos{
-    font-family: OpenSans;
+  font-family: OpenSans;
   font-size: 14px;
   font-weight: normal;
   font-stretch: normal;
@@ -191,6 +191,7 @@ ul.right li.active a{
   line-height: 1.71;
   letter-spacing: normal;
   color: #000;
+  text-align: justify;
   
 }
 
@@ -221,6 +222,7 @@ ul.right li.active a{
   line-height: 1.86;
   letter-spacing: normal;
   color: #000;
+  text-align: justify;
 }
 
 .elemento-text span{
@@ -350,7 +352,7 @@ ul.right li.active a{
 
   .mama{
     font-family: HelloMorgan;
-    font-size: 56px;
+    font-size: 50px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -359,6 +361,7 @@ ul.right li.active a{
     color: #231f20;
     margin-bottom: 0;
     margin-top: -30px;
+    
   }
 
   .lineah{
@@ -374,6 +377,7 @@ ul.right li.active a{
     line-height: 1.64;
     letter-spacing: normal;
     color: #000;
+    text-align: justify;
   }
 
   .tel{
@@ -413,6 +417,7 @@ ul.right li.active a{
     line-height: 1.86;
     letter-spacing: normal;
     color: #000;
+    text-align: justify;
   }
 
   .margen{
