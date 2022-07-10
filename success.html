@@ -1,12 +1,9 @@
-<h1>Success Page</h1>
+<h1 onload="testPlatformSpecificMethod('fromWeb')">Success Page</h1>
 
 <script>
 
-    document.ready(function(){
-        testPlatformSpecificMethod('fromWeb')
-    });
-
     function testPlatformSpecificMethod(msg) { 
-        makePayment.postMessage(msg) 
+        makePayment.postMessage(msg);
+
     }
 </script>
